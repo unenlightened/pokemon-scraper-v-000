@@ -67,8 +67,8 @@ class Pokemon    #bonus version
     self.new(id: id, name: name, type: type, db: db, hp: hp)
   end
 
- def alter_hp(damage)
-   
+ def alter_hp(hp)
+
  end
  # So Ian and you have decided to battle.  He chose Magikarp (rookie mistake), and you chose Pikachu.
  # He used splash. It wasn't very effective. It did one damage.
