@@ -1,4 +1,4 @@
-require 'Nokogiri'
+require 'pry'
 
 class Pokemon1    #orignal class that passes the first tests
   attr_accessor :name, :type, :db, :hp
