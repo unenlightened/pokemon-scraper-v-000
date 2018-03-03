@@ -61,8 +61,8 @@ class Pokemon    #bonus version
       WHERE ID = ?
     SQL
 
-    id, name, type = db.execute(sql, id.to_s).flatten
-    self.new(id: id, name: name, type: type, db: db)
+    id, name, type, hp = db.execute(sql, id.to_s).flatten
+    self.new(id: id, name: name, type: type, db: db, hp: hp)
   end
 
  def alter_hp
