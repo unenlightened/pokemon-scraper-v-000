@@ -68,7 +68,7 @@ class Pokemon    #bonus version
   end
 
  def alter_hp(hp, db)
-   db.execute('UPDATE pokemon SET hp = #{hp} WHERE name = #{name}')
+   db.execute('UPDATE pokemon SET hp = ? WHERE name = ?', hp, name)
  end
  # So Ian and you have decided to battle.  He chose Magikarp (rookie mistake), and you chose Pikachu.
  # He used splash. It wasn't very effective. It did one damage.
