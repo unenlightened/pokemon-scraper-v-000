@@ -38,7 +38,7 @@ class Pokemon    #bonus version
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
-  def initialize(name:, type:, db:, id: nil, hp: 60)
+  def initialize(name:, type:, db:, id: nil, hp: nil)
     @id = id
     @name = name
     @type = type
