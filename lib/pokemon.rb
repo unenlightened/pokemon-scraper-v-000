@@ -1,7 +1,7 @@
 require 'pry'
 
 class Pokemonx    #orignal class that passes the first tests
-  attr_accessor :name, :type, :db, 
+  attr_accessor :name, :type, :db,
   attr_reader :id
 
   def initialize(name:, type:, db:, id: nil)
@@ -38,7 +38,7 @@ class Pokemon    #bonus version
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
-  def initialize(name:, type:, db:, id: nil, hp: nil)
+  def initialize(name:, type:, db:, id: nil, hp: 60)
     @id = id
     @name = name
     @type = type
