@@ -1,7 +1,7 @@
 require 'pry'
 
 class Pokemonx    #orignal class that passes the first tests
-  attr_accessor :name, :type, :db,
+  attr_accessor :name, :type, :db
   attr_reader :id
 
   def initialize(name:, type:, db:, id: nil)
