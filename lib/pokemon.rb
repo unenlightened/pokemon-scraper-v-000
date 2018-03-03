@@ -68,7 +68,7 @@ class Pokemon    #bonus version
   end
 
  def alter_hp(hp)
-
+   sql = 'UPDATE pokemon SET hp = #{hp} WHERE name = #{name}'
  end
  # So Ian and you have decided to battle.  He chose Magikarp (rookie mistake), and you chose Pikachu.
  # He used splash. It wasn't very effective. It did one damage.
