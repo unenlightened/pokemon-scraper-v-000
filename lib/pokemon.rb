@@ -67,7 +67,7 @@ class Pokemon    #bonus version
     self.new(id: id, name: name, type: type, db: db, hp: hp)
   end
 
- def alter_hp(hp, @db)
+ def alter_hp(hp, db)
    db.execute('UPDATE pokemon SET hp = #{hp} WHERE name = #{name}')
  end
  # So Ian and you have decided to battle.  He chose Magikarp (rookie mistake), and you chose Pikachu.
