@@ -34,7 +34,7 @@
 #
 #end
 
-class Pokemon    bonus version
+class Pokemon    #bonus version
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
