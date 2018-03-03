@@ -35,8 +35,7 @@ class Pokemonx    #orignal class that passes the first tests
 end
 
 class Pokemon    #bonus version
-  attr_accessor :name, :type, :db, :hp
-  attr_reader :id
+  attr_accessor :name, :type, :db, :hp, :id
 
   def initialize(name:, type:, db:, id: nil, hp: 60)
     @id = id
