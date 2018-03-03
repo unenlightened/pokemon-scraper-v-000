@@ -65,8 +65,6 @@ class Pokemon    #bonus version
   binding.pry
     id, name, type, hp = db.execute(sql, id.to_s).flatten
     self.new(id: id, name: name, type: type, db: db, hp: hp)
-
-
   end
 
  def alter_hp
