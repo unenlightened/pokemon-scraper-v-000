@@ -1,6 +1,6 @@
 require 'pry'
 
-class Pokemon1    #orignal class that passes the first tests
+class Pokemonx    #orignal class that passes the first tests
   attr_accessor :name, :type, :db, :hp
   attr_reader :id
 
