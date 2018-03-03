@@ -63,7 +63,7 @@ class Pokemon    #bonus version
       WHERE ID = ?
     SQL
   binding.pry
-    id, name, type, hp = db.execute(sql, id.to_s).first
+    id, name, type, hp = db.execute(sql, id.to_s).flatten
     self.new(id: id, name: name, type: type, db: db, hp: hp)
   end
 
